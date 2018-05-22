@@ -20,7 +20,9 @@
   "homepage": "https://github.com/YutHelloWorld/calendar",
   "author": "Sven <sven@139.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "vortex-calendar": "^1.1.5"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",

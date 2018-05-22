@@ -5472,6 +5472,10 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vortex-calendar@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/vortex-calendar/-/vortex-calendar-1.1.5.tgz#95c093772ec9ac24f2395233ba1bb3834aeddd09"
+
 watchpack@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.4.0.tgz#4a1472bcbb952bd0a9bb4036801f954dfb39faac"
