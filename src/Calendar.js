@@ -88,7 +88,7 @@ export default class Calendar extends React.Component {
       const month = +activeDate.slice(5, 7)
       const year = +activeDate.slice(0, 4)
 
-      this.props.selectday(activeDate)
+      // this.props.selectday(activeDate)
 
       if (this.state.activeDate !== activeDate) {
         if (this.state.month !== month) {
@@ -149,9 +149,9 @@ export default class Calendar extends React.Component {
 
 
     // 判断当前是否是 “今天” ，并去除掉border的样式（根据自己需要进行添加）
-    if(className.indexOf("item-today") !== -1) {
-      className += " noborder"
-    }
+    // if(className.indexOf("item-today") !== -1) {
+    //   className += " noborder"
+    // }
 
     return className
   }
